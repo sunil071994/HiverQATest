@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="gmailId" value="sunilnew07@gmail.com"/>
+  <parameter name="gmailPassword" value="geeta9412#"/>
+  <parameter name="message" value="Hiver QA Test"/>
+  <test name="Test(failed)">
+    <parameter name="gmailId" value="sunilnew07@gmail.com"/>
+    <parameter name="gmailPassword" value="geeta9412#"/>
+    <parameter name="message" value="Hiver QA Test"/>
+    <classes>
+      <class name="HiverSharedMailBox.SharedMailBox">
+        <methods>
+          <include name="sharedMailBoxTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUpAndLaunchBrowser"/>
+        </methods>
+      </class> <!-- HiverSharedMailBox.SharedMailBox -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

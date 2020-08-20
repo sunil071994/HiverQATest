@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Test">
+  <parameter name="gmailId" value=""></parameter>
+  <parameter name="gmailPassword" value=""></parameter>
+  <parameter name="message" value="Hiver QA Test"></parameter>
+    <classes>
+      <class name="HiverSharedMailBox.SharedMailBox"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
